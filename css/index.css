@@ -1,0 +1,219 @@
+@charset "UTF-8";
+
+.main_top {
+  width: 100%;
+  height: 350px;
+  position: relative;
+  bottom: 8px;
+}
+
+.main_top_bg {
+  display: flex;
+  position: relative;
+  width: 100%;
+  height: 350px;
+  background-image: url(../img/top_akiyama.png);
+  background-repeat:no-repeat;
+  background-position: right;
+}
+
+.main_top_bg h1 {
+  width: 100%;
+  z-index: 2;
+  font-size: 35px;
+  font-weight:bold ;
+  background-color: #A0DAFB;
+  padding-right: 610px;
+  padding-left: 50px;
+  line-height: 1.5;
+  opacity: 0.4;
+  margin-top: 70px;
+  height: 30%;
+}
+
+.top nav {
+  height: 330px;
+}
+
+.top_nav_inner {
+  width: 100%;
+}
+
+.nav_list {
+  display: flex;
+  padding:40px 30px;
+  text-align: center;
+  height: 100%;
+}
+
+.nav_list li{
+   width: 20%;
+   padding: 30px 0;
+}
+
+.nav_item_img {
+  width: 120px;
+}
+
+.nav_item1 {
+  background-color:#5dbff8;
+}
+
+.nav_item2 {
+  background-color: #A0DAFB;
+}
+
+.news_schedule {
+  width: 100%;
+  position: relative;
+}
+
+.schedule_inner {
+  padding: 30px;
+}
+
+.news_class{
+  padding:10px;
+  display: flex;
+}
+
+.news_item {
+  width:25%;
+  text-align: center;
+  border-top: dashed 1px #A0DAFB ;
+  border-bottom: dashed 1px #A0DAFB;
+  border-left: dashed 1px #A0DAFB ;
+}
+ 
+.news_item img {
+  width: 180px;
+}
+
+.news_item p {
+  font-weight: bold;
+  margin-bottom: 30px;
+}
+
+.news_item2 {
+  width: 75%;
+  padding:40px;
+  border: dashed 1px #A0DAFB ;
+}
+
+.news_nav {
+  width: 100%;
+  margin-bottom: 40px;
+  margin-top: 20px;
+}
+
+.news_nav ul{
+  position: relative;
+  display: flex;
+  background-color: #8991a7;
+  text-align: center;
+  padding: 10px;
+  padding-left: 40px;
+}
+
+.news_nav li {
+  font-size: 20px;
+  margin-left: 80px;
+}
+
+.news_nav li :hover {
+  color: dimgray;
+}
+
+.news_list ul li{
+   margin-bottom: 5px;
+   border-bottom: dashed 1px #999;
+}
+
+.schedule_wrap table {
+  border: double #75d5ff 10px;
+  width: 100%;
+  text-align: center;
+}
+
+.schedule_wrap table tr {
+  border: solid #75d5ff 2px;
+  padding: 10px;
+}
+
+.schedule_wrap table th {
+  border: solid #75d5ff 2px;
+  padding: 10px;
+}
+
+.schedule_wrap table td {
+  border: solid #75d5ff 2px;
+  padding: 10px;
+}
+
+.sub_top {
+  width: 100%;
+  position: relative;
+  display: flex;
+}
+
+.sub1 {
+  width: 50%;
+  height: 350px;
+  position: absolute;
+  top:0px;
+  left:0px;
+  background-image: url(../img/geka.jpg);
+  background-repeat: no-repeat;
+  text-align: center;
+}
+
+.sub1 ::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 1;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(42, 204, 233, 0.29);
+}
+
+.sub2 {
+  width: 50%;
+  height: 350px;
+  position: absolute;
+  top: 0px;
+  left: 50%;
+  background-image: url(../img/staff_osaka.jpg);
+  background-repeat: no-repeat;
+  text-align: center;
+}
+
+.sub2 ::after {
+   content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 1;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(110, 55, 18, 0.171);
+}
+
+.sub1 p {
+  font-size: 40px;
+  color: white;
+  font-weight: 1000;
+  top:50%;
+  margin-top: 140px;
+}
+
+.sub2 p {
+  font-size: 40px;
+  color: white;
+  font-weight:1000;
+  top: 50%;
+  margin-top: 140px;
+}
+
+

@@ -1,0 +1,105 @@
+body {
+  font-size: 15px;
+  font-family: 'Noto Serif', serif;
+  line-height: 1.8;
+  letter-spacing: 1px;
+  word-break: break-all;
+  color: #333;
+}
+
+a {
+  text-decoration: none;
+  color: #333;
+}
+
+li {
+  list-style: none;
+}
+
+header {
+  width: 100%;
+  display: inline-block;
+  background:#8991a7; 
+}
+
+header .logo {
+  position: absolute;
+  z-index: 2;
+  background-color: white;
+  padding: 10px 8px 10px 5px;
+}
+
+header .logo img {
+  width: 150px; 
+  height: auto;
+  z-index: 2;
+}
+
+header .navbar ul {
+  display: flex;
+  float: right;
+  position: relative;
+  margin: 10px 0;
+  padding-left: 10px;
+}
+
+header .navbar ul li {
+  margin: 5px; 
+  padding-right: 50px;  
+}
+
+header .navbar ul li a {
+  color: #000;
+  font-weight: 700;
+  font-size: 15px;
+}
+
+header .navbar ul li a:hover {
+  color: #75a9ff;
+}
+
+header .respons {
+  visibility: hidden; 
+  width: 0; 
+  height: 0; 
+}
+
+header .drawer {
+  visibility: hidden;
+}
+
+.information_class {
+  width: 100%;
+}
+
+.information_inner {
+  padding: 20px;
+  display: flex;
+}
+
+.address {
+  text-align: center;
+  width:30%;
+  display: none;
+}
+
+.address p {
+  font-size: 20px;
+}
+
+.footer_menu {
+  background-color: #C4C4C4;
+}
+
+.footer_menu ul {
+  padding:30px;
+  display: flex;
+}
+
+.footer_menu ul li {
+  margin-right: 20px;
+}
+
+.footer_logo {
+  text-align: center;
+}
