@@ -1,3 +1,5 @@
+@charset "UTF-8";
+
 body {
   font-size: 15px;
   font-family: 'Noto Serif', serif;
@@ -70,25 +72,57 @@ header .drawer {
 
 .information_class {
   width: 100%;
+  position: relative;
+  top: 50px;
 }
 
 .information_inner {
-  padding: 20px;
+  padding: 10px;
+  margin-top: 40px;
+  margin-left: 50px;
   display: flex;
 }
 
 .address {
-  text-align: center;
+  margin-left: 10px;
   width:30%;
-  display: none;
+}
+
+.address img {
+   width: 350px;
+   height:100px;
 }
 
 .address p {
+  font-size: 26px;
+  margin-top: 20px;
+  margin-right: 10px;
+}
+
+.time {
+  display: flex;
   font-size: 20px;
+  padding-left: 40px;
+  border-left: dashed 1px #A0DAFB;
+}
+
+.time p {
+  margin-top: 16px;
+  font-size: 24px;
+}
+
+.time .tel_number {
+  background-color: #A0DAFB;
+  border-radius: 30px;
+  text-align: center;
+  height:50px;
+  width: 220px;
+  margin-top: 100px;
 }
 
 .footer_menu {
   background-color: #C4C4C4;
+  margin-top: 50px;
 }
 
 .footer_menu ul {
@@ -97,7 +131,7 @@ header .drawer {
 }
 
 .footer_menu ul li {
-  margin-right: 20px;
+  margin-right: 40px;
 }
 
 .footer_logo {

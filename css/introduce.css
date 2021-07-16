@@ -1,1 +1,63 @@
 @charset "UTF-8";
+
+.top_inner {
+  position: absolute;
+  top: -0.5px;
+  width: 100%;
+  height: 350px;
+  background-image: url(../img/top1.jpg);
+  background-repeat:no-repeat;
+  background-position: right;
+}
+
+.director {
+  width: 100%;
+  position: relative;
+  border-bottom: solid 2px #000;
+}
+
+.director_inner {
+  padding:30px;
+  margin-left: 40px;
+  margin-top: 10px;
+  border-bottom: dashed 3px #A0DAFB;
+  display: flex;
+}
+
+.director_img {
+  margin-left: 40px;
+}
+
+.director_img img {
+  width: 280px;
+}
+
+.director_txt {
+  padding:30px;
+  background-color: #A0DAFB;
+  border-radius: 40px;
+  margin-left: 70px;
+  font-size: 18px;
+}
+
+.philosophy {
+  display: flex;
+  padding:30px 0 30px 100px;
+}
+
+.philosophy_logo {
+  margin-left: 100px;
+}
+
+.philosophy_logo img {
+  width: 200px;
+}
+
+.philosophy_txt {
+  font-size: 30px;
+  line-height: 60px;
+  letter-spacing: 7%;
+  margin-left: 100px;
+  text-align: center;
+  font-weight: bold;
+}

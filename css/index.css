@@ -216,4 +216,26 @@
   margin-top: 140px;
 }
 
+.map_class {
+  position: relative;
+  margin-top: 400px;
+}
 
+.information_class1 {
+  width: 100%;
+  position: relative;
+  top: 350px;
+}
+
+.footer_menu1 {
+  background-color: #C4C4C4;
+}
+
+.footer_menu1 ul {
+  padding:30px;
+  display: flex;
+}
+
+.footer_menu1 ul li {
+  margin-right: 40px;
+}

@@ -1,1 +1,213 @@
 @charset "UTF-8";
+
+.top_inner {
+  position: absolute;
+  top: -0.5px;
+  width: 100%;
+  height: 350px;
+  background-image: url(../img/top2.jpg);
+  background-repeat:no-repeat;
+  background-position: right;
+}
+
+.time_table {
+  width: 1300px;
+  text-align: center;
+  font-size: 24px;
+  padding: 20px;
+  margin-top:50px 30px 0 0;
+}
+
+.time_table table {
+  margin:30px;
+}
+
+.time_table td {
+  border: solid #999 2px;
+  padding: 10px;
+}
+
+.time_table td:first-child {
+  background-color: #6DCAFF;
+}
+
+.time_table td:nth-child(2) {
+  background-color: #A0DAFB;
+
+}
+
+.first_visit {
+  width: 100%;
+  position: relative;
+}
+
+.visit_inner {
+  display: flex;
+  padding: 40px;
+}
+
+.bring {
+  background-color: #A0DAFB;
+  background:rgba(160, 218, 251, 0.56);
+  padding: 30px;
+  margin:0 60px;
+  font-size: 18px;
+}
+
+.examination_flow {
+  width: 90%;
+  position: relative;
+  margin-bottom: 50px;
+}
+
+.flow_all {
+  padding: 20px;
+  width: 85%;
+  margin-left: 20px;
+}
+
+.flow_item {
+  display: flex;
+  padding: 20px;
+  margin-left: 10px;
+  text-align: center;
+  background-color: rgba(160, 218, 251, 0.17);
+}
+
+.flow_icon {
+  text-align: center;
+  padding: 20px;
+}
+
+.flow_icon img {
+  width: 100px;
+}
+
+.icon_name {
+  font-size: 26px;
+  font-weight: bold;
+}
+
+.flow_txt {
+  padding: 20px;
+  margin-left: 20px;
+  font-size: 18px;
+  border-left: solid 5px rgba(20, 167, 251, 0.9);
+}
+
+.arrow {
+  position:relative;
+}
+
+.arrow::before {
+  content:"";
+  display: block;
+  position: absolute;
+  top: 0px;
+  left: 50%;
+  width: 0;
+  height: 0;
+  transform: translateX(-50%);
+  border: 12px solid transparent;
+  border-top: 12px solid #000;
+  border-bottom-width: 0;
+}
+
+.again_visit {
+  width:100%;
+  position: relative;
+  margin-bottom: 50px;
+}
+
+.alarm {
+  padding: 20px;
+  margin-left: 30px;
+}
+
+.alarm span {
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.bring p {
+  font-size: 26px;
+  font-weight: bold;
+}
+
+.bring ul {
+  display: flex;
+}
+
+.bring ul li {
+  margin-left: 20px;
+}
+
+.doctors {
+  margin-bottom: 50px;
+}
+
+.schedule_wrap table {
+  border: double #75d5ff 10px;
+  width: 80%;
+  text-align: center;
+  margin-left: 70px;
+  margin-top: 40px;
+}
+
+.schedule_wrap table tr {
+  border: solid #75d5ff 2px;
+  padding: 10px;
+}
+
+.schedule_wrap table th {
+  border: solid #75d5ff 2px;
+  padding: 10px;
+}
+
+.schedule_wrap table td {
+  border: solid #75d5ff 2px;
+  padding: 10px;
+}
+
+.examination {
+  width: 100%;
+  position: relative;
+}
+
+.mri {
+  display: flex;
+  padding: 20px;
+}
+
+.mri_txt {
+  width: 40%;
+  margin-left: 20px;
+  font-size: 18px;
+}
+
+.mri_img {
+  margin-left: 60px;
+}
+
+.mri_img img { 
+  width: 450px;
+}
+
+.bone {
+  display: flex;
+  padding: 20px;
+}
+
+.bone_txt {
+  width: 40%;
+  margin-left: 20px;
+  font-size: 18px;
+}
+
+.bone_img {
+  margin-left: 60px;
+}
+
+.bone_img img { 
+  width: 250px;
+}

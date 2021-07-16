@@ -1,1 +1,72 @@
 @charset "UTF-8";
+
+.top_inner {
+  position: absolute;
+  top: -0.5px;
+  width: 100%;
+  height: 350px;
+  background-image: url(../img/shinsatsu02.jpg);
+  background-repeat:no-repeat;
+  background-position: right;
+}
+
+.refer {
+  width: 100%;
+  position: relative;
+  margin-bottom: 50px;
+}
+
+.reference {
+  padding:30px;
+  margin-left: 40px;
+  margin-top: 10px;
+}
+
+.reference p {
+  font-size: 22px;
+}
+
+.reference span {
+  color: red;
+}
+
+.button {
+  text-align: center;
+  padding: 10px;
+  background-color: #A0DAFB;
+  border-radius: 10px;
+  width: 15%;
+  float: right;
+  margin-right: 90px;
+}
+
+.button:hover {
+  cursor: pointer;
+  opacity: 0.7;
+}
+
+.button a {
+  font-size: 18px;
+  color: #555;
+}
+
+.refer_flow {
+  width: 100%;
+  position: relative;
+  margin-bottom: 50px;
+}
+
+.refer_flow_img {
+  margin:50px 0 20px 100px;
+}
+
+.refer_flow_img img {
+  width: 80%;
+}
+
+.refer_flow p {
+  padding: 20px;
+  margin-left: 80px;
+  font-size: 18px;
+}
+
